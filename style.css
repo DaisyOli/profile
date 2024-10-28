@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DynaPuff:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+h1, h2{
+  font-family: DynaPuff;
+  font-weight: 100;
+  color: #5e108e;
+  font-size: 24px;
+}
+body{
+  background-color: #f2eaf7;
+  font-size: 17px;
+  line-height: normal;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+.container{
+  width: 500px; 
+  margin: 0 auto;
+}
+
+a:hover{
+  color: #bb8cdb;
+}
+p, a{
+  font-size: 18px;
+}
+a{
+  color: #8a4cb0;
+  text-decoration: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.espace-paragraph{
+  padding-bottom: 20px;
+}
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(237, 215, 236);
+}
+
+.btn-violet{
+    background-color: #984cac;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.btn-violet:hover{
+  background-color:  rgb(181, 109, 199);
+  color: aliceblue;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li{
+  font-size: 25px;
+}
+
+.fa-github-square:before {
+  content: "\f092";
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
